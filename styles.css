@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'ABCCamera';
+  src: url('fonts/ABCCamera-Black-Trial.woff2') format('woff2');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'ABCCamera';
+  src: url('fonts/ABCCamera-Regular-Trial.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'ABCCameraItalic';
+  src: url('fonts/ABCCamera-RegularItalic-Trial.woff2') format('woff2');
+  font-style: italic;
+}
+
+body {
+  background-color: #020BAE;
+  color: #FFFFFF;
+  font-family: 'ABCCamera', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: justify;
+  
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  fill: #F1D14B;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+}
+
+
+h1, .italic, .text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-family: 'ABCCamera';
+  font-weight: 900;
+  font-size: 48px;
+  color: #F1D14B;
+  margin: 0;
+}
+
+.italic {
+  font-family: 'ABCCameraItalic';
+  font-style: italic;
+  color: #F1D14B;
+  margin: 10px 0;
+}
+
+.text {
+  font-family: 'ABCCamera';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
